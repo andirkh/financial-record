@@ -58,12 +58,12 @@ def main():
         elif is_number(prompt, negative=False):
             input_number = int(prompt)
             record_transaction(input_number)
-            render(record=f"{format_idr(input_number)} masuk")
+            render(record=f"📀 {format_idr(input_number)} masuk")
 
         elif is_number(prompt, negative=True):
             input_number = int(prompt)
             record_transaction(input_number)
-            render(record=f"{format_idr(abs(input_number))} keluar")
+            render(record=f"📀 {format_idr(abs(input_number))} keluar")
         else:
             render(record="command not found")
 
