@@ -19,8 +19,11 @@ def Guide_Panel() -> Panel:
     > c (jumlah uang masuk)    
     > d (jumlah uang keluar)
     > e (saldo)
+    
     > 1000 (memasukkan 1000)
     > -1000 (mengeluarkan 1000)
+
+    > undo
     > exit (keluar)
     > reset (hapus semua)
     """
