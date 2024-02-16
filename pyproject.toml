@@ -1,0 +1,17 @@
+[project]
+name = "financial-record"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "group10", email = "andirkh@petalmail.com"},
+]
+dependencies = [
+    "rich>=13.7.0",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
