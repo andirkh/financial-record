@@ -7,3 +7,7 @@ def is_number(s: str, negative: bool=False ) -> bool:
 
     except ValueError:
         return False
+
+def yes_or_no_input() -> bool:
+    response = input("Are you sure? (y/N)").lower()
+    return response == "y"

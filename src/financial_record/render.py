@@ -22,6 +22,7 @@ def Guide_Panel() -> Panel:
     > 1000 (memasukkan 1000)
     > -1000 (mengeluarkan 1000)
     > exit (keluar)
+    > reset (hapus semua)
     """
     return Panel(Markdown(message), style="green on black")
 
