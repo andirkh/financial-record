@@ -15,3 +15,8 @@ license = {text = "MIT"}
 
 [tool.pdm]
 distribution = false
+
+[tool.pdm.dev-dependencies]
+pytest = [
+    "pytest-cov>=4.1.0",
+]
